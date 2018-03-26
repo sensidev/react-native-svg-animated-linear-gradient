@@ -1,17 +1,17 @@
 {
     "name": "react-native-svg-animated-linear-gradient",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "Animated linear gradient for React Native Svg",
     "repository": {
         "type": "git",
-        "url": "https://github.com/virusvn/react-native-svg-animated-linear-gradient.git"
+        "url": "https://github.com/sensidev/react-native-svg-animated-linear-gradient.git"
     },
-    "author": "Nhan Nguyen",
+    "author": "Movila Ionut",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/virusvn/react-native-svg-animated-linear-gradient/issues"
+        "url": "https://github.com/sensidev/react-native-svg-animated-linear-gradient/issues"
     },
-    "homepage": "https://github.com/virusvn/react-native-svg-animated-linear-gradient",
+    "homepage": "https://github.com/sensidev/react-native-svg-animated-linear-gradient",
     "keywords": [
         "react-native-svg",
         "react",
@@ -22,12 +22,12 @@
         "gradient"
     ],
     "peerDependencies": {
-        "expo": "16.0.0",
-        "react": "16.0.0-alpha.6",
-        "react-native": "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz",
-        "prop-types": "^15.5.10"
+        "react": "^16.2.0",
+        "react-native": "^0.53.3",
+        "prop-types": "^15.6.0"
     },
     "dependencies": {
+        "react-native-svg": "^6.3.1",
         "d3-interpolate": "^1.1.5"
     }
 }
